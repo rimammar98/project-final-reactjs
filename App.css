@@ -1,0 +1,95 @@
+body{
+  background-color: #6a0abf;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  
+}
+.logo{
+
+  color: white;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(245, 159, 11);
+  padding-left: 2%;
+  text-align: center;
+  
+}
+p{
+  color:white;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  
+}
+h2{
+
+  font-size: 35px;
+  text-decoration-line:overline;
+  color:whitesmoke ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app {
+  
+  min-height: 100vh;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ button{
+  background-color : white;
+  color:gray;
+  border-radius: 2px;
+  width: 15%;
+  height: 50%;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.1;
+  padding-block:10px;
+ }
+
+ button:hover {
+  background-color: #1aa762;
+  opacity: 1;
+  cursor: pointer;
+  color:whitesmoke;
+}
+
+.filter{
+display: flex;
+  padding: 20px;;
+  flex-direction: column;
+
+
+}
+
+img{
+  width: 400px;
+  height: 500px;
+  cursor: pointer;
+}
+.buton{
+  padding-top: 1%;
+}
